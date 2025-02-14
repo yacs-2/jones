@@ -1,5 +1,5 @@
 body{
-  background-color:#49519e;
+  background-color:#4ab5b0;
     color:black;
   text-align:left;
     font-family:Geist;
@@ -7,10 +7,10 @@ body{
   margin-right:10%
 }
 .heading{
-  font- family:Play:wght@400;700&display=sw ap";cursive;
+  font- family:Play, cursive;
   font-size:300%;
   color:black;
-  text-shadow:#ff0303 2px 2px;
+  text-shadow:#d61111 2px 2px;
 }
 h2.heading{
   font-size: 200%
