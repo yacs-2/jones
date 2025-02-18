@@ -10,8 +10,36 @@ body{
   font- family:Play, cursive;
   font-size:300%;
   color:black;
-  text-shadow:#d61111 2px 2px;
+  text-shadow:#d61111 3px 3px;
 }
 h2.heading{
   font-size: 200%
+}
+
+.bordered {
+  border-style: solid;
+  border-color: #faacac;
+  border-width:2px;
+  padding: 9px;
+  border-radius: 40px;
+  margin: 12px;
+  background-color: #a3bfd1;
+  color:#260a0a;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 800;
+  color:#fa0202
+}
+a:hover {
+  color:#1702fa
+}
+hr{
+  height: 2px;
+  border: 0px;
+  background-color:#fa0202
+}
+#footer{
+  
 }
