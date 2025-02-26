@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Demo JavaScript in Body</h2>
+  <p>DONT CLICK THE BUTTON OR IT WILL CHANGE</p>
+
+<p id="demo">stuff</p>
+
+<button type="button" onclick="myFunction()" style="color:red">DONT CLICK</button>
+
+<script>
+function myFunction() {
+let state =  document.getElementById("demo").innerHTML; 
+  if (state == "✧･ﾟ:* *:･ﾟ✧stuff changed its MAGIC✧･ﾟ:* *:･ﾟ✧.") {
+    document.getElementById("demo").innerHTML = "stuff";
+  } else document.getElementById("demo").innerHTML = "✧･ﾟ:* *:･ﾟ✧stuff changed its MAGIC✧･ﾟ:* *:･ﾟ✧.";
+}
+</script>
+
+</body>
+</html>
