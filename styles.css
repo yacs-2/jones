@@ -48,6 +48,6 @@ hr{
   height:100vw;
   z-index:-999;
   position:fixed;
-  top:0px;
+  top:-11px;
   left:0px;
 }
