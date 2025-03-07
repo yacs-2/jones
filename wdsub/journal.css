@@ -1,0 +1,85 @@
+body{
+  margin:0
+}
+#header{
+  font-family: 
+}
+#Monkey {
+  font-family: happy monkey
+}
+#pic {
+  position:fixed;
+  z-index:-99;
+  left:0;
+  top:25%;
+  width:100%;
+  height:100%;
+}
+
+#preheader {
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:#fff;
+  
+}
+#header {
+  background-color:#fff;
+  position: sticky;
+  top: 0px;
+  padding:2%;
+  display:block;
+  width:100%;
+  height:10%
+}
+  h3{
+display:inline;
+}
+  .levi {
+    width:1px;
+    height:30px;
+    color:#fff;
+    display:inline
+  }
+  #smthidk {
+    text-align:center;
+    display:inline
+  }
+#links {
+    align-content: center;
+  z-index:99999
+}
+
+#Headline1 {
+  background-color:rgba(8,9,9,.5);
+  color:white
+}
+
+.article{
+  background-color:rgba(225,225,225,.7);
+  position:;
+  left:3%;
+  z-index:-99;
+}
+#monkeypic {
+  width:19%;
+  height:5%;
+  float:right;
+}
+#Headline2 {
+  background-color:rgba(8,9,9,.5);
+  color:white}
+    
+#monkeypicdos {
+  width:19%;
+  height:5%;
+  float:right;}
+#Headline3 {
+  background-color:rgba(8,9,9,.5);
+  color:white}
+#monkeypictres {
+  width:19%;
+  height:5%;
+  float:right;}
+#footer {
+  background-color:teal;
+}
