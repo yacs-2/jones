@@ -61,7 +61,7 @@ display:inline;
   z-index:-99;
 }
 #monkeypic {
-  width:19%;
+  width:10%;
   height:10vh;
   float:right;
 }
@@ -70,14 +70,14 @@ display:inline;
   color:white}
     
 #monkeypicdos {
-  width:19%;
+  width:12%;
   height:18vh;
   float:right;}
 #Headline3 {
   background-color:rgba(8,9,9,.5);
   color:white}
 #monkeypictres {
-  width:19%;
+  width:10%;
   height:10vh;
   float:right;}
 #footer {
