@@ -62,7 +62,7 @@ display:inline;
 }
 #monkeypic {
   width:14%;
-  max-height:75%;
+  max-height:65%;
   float:right;
 }
 #Headline2 {
@@ -71,14 +71,14 @@ display:inline;
     
 #monkeypicdos {
   width:15%;
-  max-height:75%;
+  max-height:65%;
   float:right;}
 #Headline3 {
   background-color:rgba(8,9,9,.5);
   color:white}
 #monkeypictres {
   width:15%;
-  max-height:75%;
+  max-height:65%;
   float:right;}
 #footer {
   background-color:teal;
