@@ -1,0 +1,24 @@
+body {
+  margin:0px;
+}
+#b {
+  width:100vw;
+  position:fixed;
+  top:0x;
+  left:0px;
+  opacity:0.6;
+}
+#content {
+  position:absolute;
+  top:20%;
+  bottom:20%;
+  left:20%;
+  right:20%;
+  padding:50px;
+  background-color:rgba(120,120,250,0.7);
+  border-radius:20px;
+  text-align:center;
+}
+#back{
+  display:
+}
