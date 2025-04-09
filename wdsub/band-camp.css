@@ -1,24 +1,42 @@
 body {
   margin:0px;
 }
-#b {
-  width:100vw;
-  position:fixed;
-  top:0x;
-  left:0px;
-  opacity:0.6;
+
+#content, #album, #info {
+  float:left;
 }
 #content {
-  position:absolute;
-  top:20%;
-  bottom:20%;
-  left:20%;
-  right:20%;
-  padding:50px;
-  background-color:rgba(120,120,250,0.7);
-  border-radius:20px;
-  text-align:center;
+  border:solid 2px red;
+  width:55%;
+  
 }
-#back{
-  display:
+#info {
+   border:solid 2px green;
+   max-width:30%;
+}
+#album {
+   border:solid 2px blue;
+   width:20%;
+}
+#player button {
+  float:left;
+}
+#player audio::-webkit-media-controls-play-button {
+  display:none;
+}
+#player audio{
+  height: 1.5em;
+}
+#track-li {
+  list-style-type:
+}
+.track-li {
+  font-size: 120%;
+  font-style:italic;
+}
+.track-player::-webkit-media-controls-panel {
+  background-color: rgba( 255, 255, 255, 1);
+}
+.track-player {
+  height: 1em;
 }
