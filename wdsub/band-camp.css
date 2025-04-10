@@ -12,7 +12,7 @@ body {
 }
 #info {
    border:solid 2px green;
-   max-width:30%;
+   max-width:23%;
 }
 #album {
    border:solid 2px blue;
@@ -42,4 +42,8 @@ body {
 }
 #info img {
   width: 80%
+}
+#album-cover {
+  height:10em;
+  width:100%;
 }
