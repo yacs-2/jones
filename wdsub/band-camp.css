@@ -35,8 +35,11 @@ body {
   font-style:italic;
 }
 .track-player::-webkit-media-controls-panel {
-  background-color: #ff;
+  background-color: rgba( 255, 255, 255, 1);
 }
 .track-player {
   height: 1em;
+}
+#info img {
+  width: 80%
 }
