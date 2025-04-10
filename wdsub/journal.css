@@ -1,86 +1,49 @@
-body{
-  margin:0
-}
-#header{
-  font-family: 
-}
-#Monkey {
-  font-family: happy monkey
-}
-#pic {
-  position:fixed;
-  z-index:-99;
-  left:0;
-  top:25%;
-  width:100%;
-  height:100%;
+body {
+  margin:0px;
 }
 
-#preheader {
-  padding-top:10px;
-  padding-bottom:10px;
-  background-color:#fff;
+#content, #album, #info {
+  float:left;
+}
+#content {
+  border:solid 2px red;
+  width:55%;
   
 }
-#header {
-  background-color:#fff;
-  position: sticky;
-  top: 0px;
-  padding:2%;
-  display:block;
-  width:100%;
-  height:10%
+#info {
+   border:solid 2px green;
+   max-width:23%;
 }
-  h3{
-display:inline;
+#album {
+   border:solid 2px blue;
+   width:20%;
 }
-  .levi {
-    width:1px;
-    height:30px;
-    color:#fff;
-    display:inline
-  }
-  #smthidk {
-    text-align:center;
-    display:inline
-  }
-#links {
-    align-content: center;
-  z-index:99999
+#player button {
+  float:left;
 }
-
-#Headline1 {
-  background-color:rgba(8,9,9,.5);
-  color:white
+#player audio::-webkit-media-controls-play-button {
+  display:none;
 }
-
-.article{
-  background-color:rgba(225,225,225,.7);
-  position:;
-  left:3%;
-  z-index:-99;
+#player audio{
+  height: 1.5em;
 }
-#monkeypic {
-  width:14%;
-  max-height:65%;
-  float:right;
+#track-li {
+  list-style-type:
 }
-#Headline2 {
-  background-color:rgba(8,9,9,.5);
-  color:white}
-    
-#monkeypicdos {
-  width:15%;
-  max-height:65%;
-  float:right;}
-#Headline3 {
-  background-color:rgba(8,9,9,.5);
-  color:white}
-#monkeypictres {
-  width:15%;
-  max-height:65%;
-  float:right;}
-#footer {
-  background-color:teal;
-  align:center;
+.track-li {
+  font-size: 120%;
+  font-style:italic;
+}
+.track-player::-webkit-media-controls-panel {
+  background-color: rgba( 255, 255, 255, 1);
+}
+.track-player {
+  height: 1em;
+}
+#info img {
+  width: 80%
+}
+#album-cover {
+  height:;
+  width:20%;
 }
