@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: rgba(25,25,25,.2);
+}
+
+#to-do-list {
+  list-style-type: none;
+}
+
+#NewThing {
+  text-align:center;
+  margin-top:8.5%;
+}
+
+#bg {
+  width: 100vw;
+  height:100vh;
+  z-index:-999;
+  position:fixed;
+  top:0px;
+  left:0px;
+  
+}
+
+h1 {
+  text-align:center;
+  margin-top:5%;
+}
