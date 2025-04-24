@@ -18,7 +18,7 @@ h2.heading{
 
 .bordered {
   border-style: solid;
-  border-color: rgb(20,0,250);
+  border-color: #260a0a;
   border-width:2px;
   padding: 9px;
   border-radius: 40px;
@@ -59,17 +59,25 @@ hr{
 }
 
 #nav-list {
+  padding:10px;
   display: flex;
   justify-content: center;
   list-style-type: none;
   position: relative;
-  background-color: green;
+  background-color: #111e69;
+  text-align:center;
 }
 
 #nav-list > li {
   flex-grow:1;
   display: inline-block;
   width: 15%;
+  position: relative;
+}
+
+nav-list li a {
+  display: inline-block;
+  width: 100%;
 }
 
 #nav-list ul {
@@ -81,11 +89,12 @@ hr{
 }
 
 #nav-list li:hover {
-  background: rgb(50,180,240)
+  background: rgb(50,180,240);
 }
 
 #nav-list li ul {
   list-style-type: none;
   padding:0px;
   position: absolute;
+  width:100%;
 }
