@@ -45,6 +45,7 @@ hr{
 }
 #MONKEY {
   width:100vw;
+  height:139vh;
   z-index:-999;
   position:fixed;
   top:-200px;
