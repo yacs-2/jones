@@ -1,0 +1,39 @@
+                          .photo-row{
+  display:flex;
+  
+}
+.photo-container{
+  flex-grow:1;
+  border:solid red;
+  margin:1em
+}
+.photo-container img{
+  max-height:150px;
+}
+
+
+
+
+
+
+#big-div{
+  display:none;
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  z-index:99999999999999;
+  width:100%;
+  padding:10%;
+  background-color:rgba(0,0,0,0.4);
+}
+
+#big-div div{
+  width:70%;
+  padding:5%;
+  background-color:white;
+}
+#big-div img{
+  max-height:70vh;
+}
