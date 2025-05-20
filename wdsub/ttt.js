@@ -1,49 +1,51 @@
 let isXTurn = true;
-const squareArr = document.querySelectorAll(".square");
+let squareArr = document.querySelectorAll(".square");
 
 for(const _element of squareArr) {
-  _element.addEventListener("click", markSquare)
+  _element.addEventListener("click", markSquare);
 }
 
 function markSquare(_square) {
-  if (_square.srcElement.innerText !="X" && _square.srcElement.innerText != "0") {
-if (isXTurn) {
-  _square.srcElement.innerText = "X";
-}else {
-   _square.srcElement.innerText = "0";
-}
+  if (_square.srcElement.innerText != "x" && _square.srcElement.innerText != "o") {
+  if (isXTurn) {
+    _square.srcElement.innerText = "x";
+  } else {
+    _square.srcElement.innerText = "o";
+  }
   
- if (checkComplete()) {
-     let winnerDiv = document.getElementById("winner");
-   winnerDiv.style.display = "block";
-   
-     let winnerText = document.querySelector("#winner div");
-   winnerText.innerText =  isXTurn ? "!Player X Wins!" : "!Player O Wins!";
-    }
-    
+  if (checkComplete()) {
+    let winnerDiv = document.getElementById("winner")
+    winnerDiv.style.display = "block";
+    let winnerText = document.querySelector("winner div")
+    winnerDiv.innerHTML = isXTurn ? "Player X wins!" : "Player O wins!";
+    console.log("game over")
+  }
   isXTurn = !isXTurn;
   }
 }
 
 function checkComplete() {
-  for (let _i=0; _i < 3; _i++) {
-    if ((squareArr[_i].innerText == "X" || squareArr[_i].innerText == "O")
-       && squareArr[_i].innerText == squareArr[_i + 3].innerText
-       && squareArr[_i].innerText == squareArr[_i + 6].innerText
-       ) return true;
-   else if ((squareArr[3*_i].innerText == "X" || squareArr[3*_i].innerText == "O")
-       && squareArr[3*_i].innerText == squareArr[3*_i +1].innerText
-       && squareArr[3*_i].innerText == squareArr[3*_i +2].innerText
-       ) return true;
+  for (let _i = 0; _i < 3; _i++) {
+    if ((squareArr[_i].innerText == "x" || squareArr[_i].innerText == "o" )
+      && squareArr[_i].innerText == squareArr[_i + 3].innerText
+        && squareArr[_i].innerText == squareArr[_i + 6].innerText
+      ) return true;
+    else if ((squareArr[3 * _i].innerText == "x" || squareArr[3 * _i].innerText == "o" )
+      && squareArr[_i].innerText == squareArr[_i + 1].innerText
+        && squareArr[_i].innerText == squareArr[_i + 2].innerText
+      ) return true;
+      
   }
   
-  if ((squareArr[0].innerText == "X" || squareArr[0].innerText == "O")
-     && squareArr[0].innerText == squareArr[4].innerText
-       && squareArr[0].innerText == squareArr[8].innerText
-     ) return true;
-  else if ((squareArr[2].innerText == "X" || squareArr[2].innerText == "O")
-     && squareArr[2].innerText == squareArr[4].innerText
-     && squareArr[2].innerText == squareArr[6].innerText
-     ) return true;
+  if ((squareArr[0].innertext == "x" || squareArr[0].innertext == "o")
+    && squareArr[0].innerText == squareArr[4].innerText
+    && squareArr[0].innerText == squareArr[8].innerText
+    )return true;
+  
+  if ((squareArr[2].innertext == "x" || squareArr[2].innertext == "o")
+    && squareArr[2].innerText == squareArr[4].innerText
+    && squareArr[2].innerText == squareArr[6].innerText
+    )return true;
   else return false;
-}
+  
+}  
