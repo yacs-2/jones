@@ -16,7 +16,7 @@ function markSquare(_square) {
   if (checkComplete()) {
     let winnerDiv = document.getElementById("winner")
     winnerDiv.style.display = "block";
-    let winnerText = document.querySelector("winner div")
+    let winnerText = document.querySelector("winnerDiv")
     winnerDiv.innerHTML = isXTurn ? "Player X wins!" : "Player O wins!";
     console.log("game over")
   }
