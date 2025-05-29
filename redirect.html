@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>redirect</title>
+    <script>
+      let urlParams = new URLSearchParams(window.location.search);
+      let username = urlParams.get("variable1");
+
+      if (username == "KAEDEN") {
+        window.location.replace("https://yacs-2.github.io/jones/secret.html");
+      } else {
+       window.location.replace("https://yacs-2.github.io/jones/home.html"); 
+      }
+      
+    </script>
+  </head>
+  <body>
+    <p>Redirecting, please do not restart or power off your device...</p>
+  </body>
+</html>
